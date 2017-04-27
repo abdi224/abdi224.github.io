@@ -1,0 +1,24 @@
+header { text-align: left;
+	background-color: black;
+	border: 1px black;
+	padding: 20px;
+}
+
+#header {
+	background: #FFED74
+}
+#nav {
+	background: #E8C66A
+}
+#aside {
+	background: #FFC675
+}
+#article {
+	background: #E89C6C 
+}
+#footer {
+	background:#FF957E 
+}
+#div/section {
+	background: #FFE2B8 
+}
