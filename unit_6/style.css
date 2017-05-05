@@ -1,80 +1,75 @@
-body { font-family: 'arial',sans-serif;
-	background-color: #FFC898;
+body { 
+	font-family: arial,sans-serif;
+	background-repeat: no-repeat;
+background-size: 100%;
+	color: #FFC898;
+}
+.username {
+	background: transparent;
+	color: #FFF;
+
+}
+.passsword {
+	background: transparent;
+	color: #FFF;
+
 }
 
 #wrapper {
-	background-color: #FFC895;
+	max-width: 60px;
 	margin: 0 auto;
+	background-color: #FFC895;
 	padding: 10px;
 }
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: "";
-	clear: both;
-	height: 0;
+nav {
+	color: #FFFFF7;
+	float: right;
+	padding: 20px;
+	margin-top: small-caps;
 }
-
-h1{
-	background: #F89009;
-	height: 150px;
-	padding: 4px;
+ul {
+	color: #987;
 }
-header ,h2, {
+ header h2 {
 	text-transform: uppercase;
 	text-align: center;
-	color: #20F;
-	line-height: 160px;
+	background: #8F1D21;
+	line-height: 50px;
+}
+header h3 {
+	text-transform: uppercase;
+	text-align: left;
+	color: #FF4579;
 	padding: 60PX;
 }
 
-h3 {
+.main_menu  {
+	color: #FFF432;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.main_menu {
+margin-top: 12px;
+color: #FFF432;
+float: left;
+}
+.main_menu li {
+	padding: 0 10px 0 10px;
+	color: #FF4222;
+	float: left;
+	font-weight: bolder;
+}
+.main_menu a,a,a,a {
+	text-decoration-line:0;
+	color: #FFE;
+	padding: 8px;
+	float: left;
 	font-variant: small-caps;
-	text-align: left;
-	color: #FF6543;
-	padding: 12PX;
 }
 
-}
-#two_colum {
-	background-color: #FFB7CF;
-	border:  1PX black solid;
-	padding:  20px;
-}
+ a #hover {
+ 	text-decoration: underline;
+ 	background-color: #aaa;
 
-}
- #left {
-	background-color: violet;
-	border:  1PX black solid;
-	padding:  20px;
-	float:left;
-	width: 30%;
-}
- #right {
-	background-color: pink;
-	border: 1px black solid;
-	padding:  20px;
-	float: right;
-	width: 62%;
-}
-.amain_menu a:#hover {
-	background-color: #ffe
-}
-#aside {
-	background: #FFC675;
-}
-#article {
-	background: #FFC675; 
-}
-footer {
-	text-align: left;
-	padding: 1em 0;
-	background:#FF957E;
-}
-#div/section {
-	background: #FFE2B8 ;
-}
- a#hover {
- 	background-color: #aaa
  }
