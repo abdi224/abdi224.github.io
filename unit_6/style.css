@@ -1,11 +1,7 @@
-body { font-family: 'arial',sans-serif;
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: arial,sans-serif;
 	background-color: #FFC898;
-}
-
-#wrapper {
-	background-color: #FFC895;
-	margin: 0 auto;
-	padding: 10px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -15,66 +11,37 @@ body { font-family: 'arial',sans-serif;
 	clear: both;
 	height: 0;
 }
-
 h1{
 	background: #F89009;
-	height: 150px;
 	padding: 4px;
 }
-header ,h2, {
+header, h2 {
 	text-transform: uppercase;
 	text-align: center;
-	color: #20F;
-	line-height: 160px;
-	padding: 60PX;
 }
-
-h3 {
-	font-variant: small-caps;
+h2 {
 	text-align: left;
 	color: #FF6543;
-	padding: 12PX;
-}
-
-}
-#two_colum {
-	background-color: #FFB7CF;
-	border:  1PX black solid;
-	padding:  20px;
-}
-
-}
- #left {
-	background-color: violet;
-	border:  1PX black solid;
-	padding:  20px;
-	float:left;
-	width: 30%;
-}
- #right {
-	background-color: pink;
-	border: 1px black solid;
-	padding:  20px;
-	float: right;
-	width: 62%;
-}
-.amain_menu a:#hover {
-	background-color: #ffe
-}
-#aside {
-	background: #FFC675;
-}
-#article {
-	background: #FFC675; 
+	padding: 12px;
 }
 footer {
 	text-align: left;
 	padding: 1em 0;
 	background:#FF957E;
 }
-#div/section {
+div,section {
 	background: #FFE2B8 ;
 }
- a#hover {
+ a:hover {
  	background-color: #aaa
+ }
+ nav {
+ 	float:right;
+ }
+ nav a {
+ 	display:inline-block;
+ 	padding:1em;
+ }
+ header img {
+ 	float:left;
  }
