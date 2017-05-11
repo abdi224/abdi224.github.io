@@ -3,44 +3,56 @@ body {
 	font-family: arial,sans-serif;
 	background-color: #FFC898;
 }
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: "";
-	clear: both;
-	height: 0;
+
+
+h1 {
+	background: #B0C4DE;
+	padding: 15px;
+	text-align: left;
 }
-h1{
-	background: #F89009;
-	padding: 4px;
+ h5 {
+	text-transform: lowercase;
+	text-align: left;
+	background-color: #FFFAF0;
 }
-header, h2 {
-	text-transform: uppercase;
-	text-align: center;
+h4 {
+	text-align: right;
+	color: #000000;
+	padding: 5px;
 }
+
 h2 {
-	text-align: left;
-	color: #FF6543;
-	padding: 12px;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	color: #FFFAF0;
 }
+
 footer {
-	text-align: left;
-	padding: 1em 0;
-	background:#FF957E;
+	text-align: center;
+	background:#000000;
+	height: 10px;
+	clear: both;
+	height: 10px;
 }
+
 div,section {
-	background: #FFE2B8 ;
+	background: #A52A2A;
+	text-align: right;
+	color: #000000;
+	padding: 10px;
 }
- a:hover {
- 	background-color: #aaa
- }
+
  nav {
  	float:right;
+ 	background: #FFA500; 
+ 	padding: 4px;
  }
- nav a {
+ 	nav a {
+ 	background: #000000;
  	display:inline-block;
  	padding:1em;
+ 	color: #FFFFFF;
  }
  header img {
  	float:left;
