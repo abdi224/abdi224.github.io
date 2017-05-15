@@ -12,28 +12,23 @@ h1 {
 	text-align: left;
 }
 
-h3 {
+h2 {
 	text-align: uppercase;
 	background: #FF0000;
+	width: 12px;
 	color: white;
-	margin: 5px;
 	display: inline-block;
 	float:right;
 }
 
- h5 {
-	text-transform: uppercase;
-	text-align: left;
-	background-color: #FFF8DC;
-}
- h4 {
+ h3 {
  	text-align: uppercase;
  	background-color: white;
  	float: right;
 
  }
 
-h2 {
+h4 {
 	text-align: right;
 	font-size: 32px;
 	margin: 20px;
