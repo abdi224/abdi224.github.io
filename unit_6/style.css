@@ -1,10 +1,27 @@
 
 body {
-	background: #2E8B57;
+	background: #404040;
 	font-size: 18px;
 	font-family: arial,sans-serif;
-    display: block;
+	display: inline-block;
+    text-align: 80%;
 }
+#wholepage {
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfixafter {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " " ;
+	clear: both;
+	width: 0;
+	height: 0;
+} 
+
 
 h1 {
 	background: #B0C4DE;
@@ -16,13 +33,6 @@ h1 {
  	color: black;
  }
 
-h2 {
-	text-align: uppercase;
-	background: #FF0000;
-	color: white;
-	display: inline-block;
-	float:right;
-}
 
  h3 {
  	text-align: uppercase;
@@ -63,14 +73,12 @@ div,section {
 }
  ul {
  	font-size: 12px;
- 	margin: 0px;
- 	padding: 0px;
- 	background: #FFA500;
- 	display: inline;
- 	float: left; 
+ 	background: black;
+ 	display: block;
+ 	float: center;
  }
  ul li  {
- 	background-color: #000000;
+ 	background-color: black;
  	font-size: 12px;
  	border: 1px solid white;
  	display:inline-block;
@@ -79,12 +87,12 @@ div,section {
  	float: right;
  }
 ul li a {
-	background-color: darkred;
-	color: gold;
+	background-color: black;
+	color: #FF4500;
 	font-size: 12px;
 	text-align: center;
 	float:right;
-	width: 90px;
+	width: 100px;
 }
  section ul { 
  	background-color: white;
@@ -97,7 +105,7 @@ ul li a {
 section li {
 	background-color: black;
 	color: #00FF00;
-	font-size: 10px;
+	font-size: 20px;
 }
  @media only screen and (max-width: 768px) {
  	body{
@@ -116,8 +124,12 @@ section li {
  }
 
  footer {
- 	background-color: black;
- 	font-size: 12px;
+ 	clear: both;
+ 	margin: 20px;
+ 	text-align: bottom;
  	color: white;
+ 	padding: 20px 0px;
+ 	font-size: 80%;
  }
+ 
  
