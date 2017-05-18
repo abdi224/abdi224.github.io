@@ -35,7 +35,7 @@ h1 {
 	background: #B0C4DE;
 	padding: 12px;
 	text-align: left;
-	widows: 32px;
+	width: 100px;
 }
  a {
  	background-color: #00FF00;
@@ -43,14 +43,20 @@ h1 {
  	widows: 10px;
  }
 
+ h2 {
+ 	background-color: red;
+ 	color: white; 
+ 	text-align: right;
+ 	width: 34px;
+ }
+
 
  h3 {
  	text-align: uppercase;
- 	font-size: 62px;
  	color:black; 
  	background-color: gold;
- 	float: right;
- 	widows: 22px;
+ 	float:left;
+ 	width: 100px;
 
  }
 
@@ -104,7 +110,7 @@ ul li a {
 	background-color: black;
 	color: #FFFF00;
 	font-size: 14px;
-	float: right;
+	float: center;
 	width: auto;
 	widows: 32px;
 }
