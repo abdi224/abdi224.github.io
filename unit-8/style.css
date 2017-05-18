@@ -1,7 +1,6 @@
 * {
 	margin: 22; padding: 0; width: 940px;
-	max-width: 100%;
-	float: none;
+	float: left;
 }
 body {
 	background: #404040;
