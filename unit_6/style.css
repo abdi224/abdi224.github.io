@@ -1,13 +1,16 @@
 * {
-	margin: 0; padding: 0; width: 940px;
+	margin: 22; padding: 0; width: 940px;
+	min-width: 50%;
+	float: none;
 }
 body {
 	background: #404040;
-	width: 50px;
-	font-size: 18px;
+	width: 4em;
+	font-size: 16px;
 	font-family: arial,sans-serif;
 	display: inline-block;
     text-align: 80%;
+    border: 22px;
 }
 #wholepage {
 	width: 220px;
@@ -30,10 +33,12 @@ h1 {
 	background: #B0C4DE;
 	padding: 15px;
 	text-align: left;
+	width: 10px;
 }
  a {
  	background-color: #00FF00;
  	color: black;
+ 	widows: 10px;
  }
 
 
@@ -73,6 +78,7 @@ div,section {
 	text-align: left;
 	color: #000000;
 	float: left;
+	width: auto;
 
 }
  ul {
@@ -111,20 +117,20 @@ section li {
 	color: #00FF00;
 	font-size: 20px;
 }
- @media only screen and (max-width: 768px) {
+ @media only screen and (min-width: 500px) {
  	body{
- 		font-size: 24px;
+ 		font-size: 12px;
  	} 
  
  #em-unit {
  	background-color: #FF6A5E;
- 	width: 1em;
- 	height: 1em;
+ 	width: 4em;
+ 	height: 2em;
  }
- #pixel-unit {
+ .fixed-unit {
  	background-color: #c05eff;
- 	width: 18px;
- 	height: 18px;
+ 	width: 40px;
+ 	height: 20px;
  }
 
  footer {
