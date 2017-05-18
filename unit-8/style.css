@@ -1,18 +1,20 @@
 * {
-	margin: 22; padding: 0; width: 940px;
+	margin: 5; padding: 0; width: 990px;
 	float: left;
 }
 body {
 	background: #404040;
-	width: auto;
+	width: 22px;
 	font-size: 16px;
 	font-family: arial,sans-serif;
 	display: inline-block;
     text-align: 80%;
-    border: 22px;
+}
+#sidebar {
+	float: right;
 }
 #wholepage {
-	width: auto;
+	width: 22px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -25,14 +27,15 @@ body {
 	clear: both;
 	width: 0;
 	height: 0;
+	clear: both;
 } 
 
 
 h1 {
 	background: #B0C4DE;
-	padding: 15px;
+	padding: 12px;
 	text-align: left;
-	width: 10px;
+	widows: 32px;
 }
  a {
  	background-color: #00FF00;
@@ -47,6 +50,7 @@ h1 {
  	color:black; 
  	background-color: gold;
  	float: right;
+ 	widows: 22px;
 
  }
 
@@ -102,6 +106,7 @@ ul li a {
 	font-size: 14px;
 	float: right;
 	width: auto;
+	widows: 32px;
 }
  section ul { 
  	background-color: white;
