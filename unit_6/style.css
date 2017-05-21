@@ -21,8 +21,8 @@ body {
 }
  aside nav {
  	text-align: uppercase;
- 	color: red; 
- 	background-color: #A9A9A9;
+ 	color: white; 
+ 	background-color: #4B0082;
  	text-align: left;
  	width: 100px;
  	font-size: 22px;
@@ -122,10 +122,10 @@ section li {
  footer {
  	background-color: white;
  	color: black;
- 	clear: both;
- 	margin: 20px;
+ 	width: 2px;
+ 	margin: 5px;
  	text-align: bottom;
- 	padding: 0;
+ 	padding: 10px;
  }
  #em-unit {
  	background-color: #FF6A5E;
