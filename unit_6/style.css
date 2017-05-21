@@ -127,5 +127,23 @@ section li {
  	text-align: bottom;
  	padding: 0;
  }
+ #em-unit {
+ 	background-color: #FF6A5E;
+ 	width: 1em;
+ 	height: 1em;
+ }
+ #pixel-unit {
+ 	background-color: #00FF00;
+ 	width: 40em;
+ 	height: 40em;
+ }
+ 
+ @media only screen and (min-width: 480px) {
+
+ 		.width: {
+ 			float: none;
+ 		width: auto;
+ 	}
+ }
  
  
