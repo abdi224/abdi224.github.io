@@ -2,7 +2,7 @@
 	margin: 0;
 max-width: none;
 font-size: 22px;
-width: 1354px;
+width: 1356px;
 padding-top: 5px;
 }
 body {
@@ -139,11 +139,10 @@ section li {
  }
  
  @media only screen and (min-width: 480px) {
-
- 		.width: {
- 			float: none;
+ 	.article {
+ 		float: none;
  		width: auto;
  	}
- }
+ } 
  
  
