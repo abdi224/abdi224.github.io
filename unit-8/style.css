@@ -1,17 +1,17 @@
 * {
-	margin: 2px;
+	margin: 1;
 	text-overflow: auto;
 	text-align: center;
 max-width: none;
 font-size: 22px;
-width: 1356px;
+width: 1357px;
 }
 
 body {
 
 	font-family: 'Arial',sans-serif;
 	background: #800000;
-	width: 1354px;
+	width: 1357px;
 }
 
 .clearfix:after {
@@ -22,25 +22,12 @@ body {
 	clear: both;
 	height: 0;
 }
- aside nav {
- 	text-align: uppercase;
- 	margin: 10px;
- 	color: white; 
- 	background-color: green;
- 	text-align: left;
- 	width: 2px;
- 	padding: auto;
- 	font-size: 22px;
- 	float: right;
 
- }
-
-
- header {
+header {
  	background-color: black;
  	height: 50px;
  	padding: auto;
- 	width: 1356px;
+ 	width: 1357px;
  }
 
  h1 {
@@ -49,7 +36,7 @@ body {
  	text-transform: uppercase;
  	text-align: center;
  	float: center;
- 	width: 1356px;
+ 	width: 1357px;
  	line-height: auto;
  	font-size: 30px; 
  }
@@ -58,7 +45,7 @@ body {
   	font-variant: small-caps;
   	color: black;
   	text-align: center;
-  	width: 1356px;
+  	width: 1357px;
   	font-size: 14px;
   }
 
@@ -69,31 +56,13 @@ h3 {
  	text-align: center;
  	width: 150px;
  	font-size: 22px;
-
- }
-
- div {
-	background-color: #800;
-	text-align:center;
-	color: #FF6A5E;
-	float: right;
-	width: 12px;
-
-}
- ul {
- 	font-size: 32px;
- 	background: black;
- 	line-height: 1,5;
- 	display: block;
- 	float: center;
- 	width: 1000px;
  }
   .main-menu {
   	padding: 5px 0 5px 0;
   	text-align: center;
   	line-height: 32px;
   	background-color: black;
-  	width: 1000px;
+  	width: 1357px;
  }
 
  ul.main-menu {
@@ -114,15 +83,8 @@ h3 {
  .main-menu a:hover {
  	color: #00FF00;
  }
- section ul  { 
- 	background-color: white;
- 	color:gold; 
- 	text-align: right;
- 	width: 38px;
- 	font-size: 22px;
-}
+
 section li {
-	background-color: black;
 	color: #00FF00;
 	font-size: 16px;
 	width: 22px;
