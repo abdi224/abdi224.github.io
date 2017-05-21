@@ -1,17 +1,17 @@
 * {
-	margin: 1;
-	text-overflow: auto;
+	margin: 0;
 	text-align: center;
-max-width: none;
+max-width: auto;
+min-width: auto;
 font-size: 22px;
-width: 1357px;
+width: 1358px;
 }
 
 body {
 
 	font-family: 'Arial',sans-serif;
 	background: #800000;
-	width: 1357px;
+	width: 1358px;
 }
 
 .clearfix:after {
@@ -24,19 +24,18 @@ body {
 }
 
 header {
- 	background-color: black;
  	height: 50px;
  	padding: auto;
- 	width: 1357px;
+ 	width: 1358px;
  }
 
  h1 {
- 	background-color: #2F4F4F;
+ 	background-color: #080000;
  	color: gold;
  	text-transform: uppercase;
  	text-align: center;
  	float: center;
- 	width: 1357px;
+ 	width: 1358px;
  	line-height: auto;
  	font-size: 30px; 
  }
@@ -45,7 +44,7 @@ header {
   	font-variant: small-caps;
   	color: black;
   	text-align: center;
-  	width: 1357px;
+  	width: 1358px;
   	font-size: 14px;
   }
 
@@ -55,14 +54,15 @@ h3 {
  	background-color: gold;
  	text-align: center;
  	width: 150px;
- 	font-size: 22px;
+ 	height: 50px;
+ 	font-size: 24px;
  }
   .main-menu {
   	padding: 5px 0 5px 0;
   	text-align: center;
   	line-height: 32px;
-  	background-color: black;
-  	width: 1357px;
+  	background-color: #00008B;
+  	width: 1358px;
  }
 
  ul.main-menu {
@@ -81,7 +81,7 @@ h3 {
  	font-variant: small-caps;
  }
  .main-menu a:hover {
- 	color: #00FF00;
+ 	color: red;
  }
 
 section li {
