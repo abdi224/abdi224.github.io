@@ -90,11 +90,11 @@ h3 {
 }
 
  footer {
- 	background-color: grey;
- 	color: black;
- 	width: auto;
+ 	background-color: black;
+ 	color: white;
+ 	width: 1358px;
  	margin: auto;
- 	text-align: bottom;
+ 	text-align: center;
  	padding: auto;
  	float: center;
  	height: auto;
