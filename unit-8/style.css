@@ -1,10 +1,10 @@
 * {
 	margin: 0;
-	text-align: left;
 max-width: auto;
 min-width: auto;
 font-size: 22px;
 width: auto;
+text-align: center; 
 }
 
 body {
@@ -44,13 +44,14 @@ body {
   	font-size: 14px;
   }
 
-h3 {
+  
+ h3 {
  	text-align: uppercase;
  	color: black; 
  	background-color: gold;
- 	width: 150px;
+ 	width: auto;
  	font-size: 24px;
- 	float: left;
+ 	float: right;
  }
   .main-menu {
   	padding: 5px 0 5px 0;
@@ -87,6 +88,7 @@ h3 {
 	margin: 22px;
 	padding: 5px;
 	text-decoration: none;
+	float: right;
 }
 
  footer {
