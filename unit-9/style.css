@@ -65,10 +65,9 @@ h3 {
  	width: 100px;
  	margin-top: 15px;
  }
-
   ul {
- 	background-color: black;
- 	color: #00FF00; 
+ 	background-color: #00BFFF;
+ 	color: black; 
  	width: 60px;
  	margin-top: 60px;
  }
