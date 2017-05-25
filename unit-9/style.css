@@ -126,9 +126,8 @@ header {
  }
  
  @media only screen and (min-width: 480px) {
- 	.article {
- 		float: none;
- 		width: auto;
+ 	header {
+ 		position: absolute;
  	}
  }
 
