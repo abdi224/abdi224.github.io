@@ -1,18 +1,19 @@
 * {
 	margin: 0;
-max-width: auto;
-min-width: auto;
+max-width: 1348px;
 font-size: 22px;
-text-align: left;
+text-align: auto;
 width: all; 
 }
 
 body {
 
 	font-family: 'Arial',sans-serif;
-	background: #500000;
+	background: #480000;
 	width: auto;
+	max-width: 720px;
 }
+
 header {
 	background-color: black;
 	width: auto;
@@ -64,6 +65,7 @@ header {
  	width: 200px;
  	margin-top: 10px;
  }
+
  div ul {
  	background-color: black;
  	color: #00FF00; 
