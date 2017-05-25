@@ -3,17 +3,20 @@
 max-width: auto;
 min-width: auto;
 font-size: 22px;
-width: auto;
-text-align: left; 
+text-align: left;
+width: all; 
 }
 
 body {
 
 	font-family: 'Arial',sans-serif;
-	background: #800000;
-	width:  0 auto;
+	background: #500000;
+	width: auto;
 }
-
+header {
+	background-color: black;
+	width: auto;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -32,14 +35,23 @@ body {
  	text-align: center;
  	float: center;
  	line-height: auto;
- 	font-size: 30px; 
+ 	font-size: 50px; 
  }
   p {
   	background-color: #00FF00;
   	font-variant: small-caps;
   	color: black;
   	text-align: center;
-  	font-size: 14px;
+  	font-size: 20px;
+  }
+
+  h2 {
+  	background-color: red;
+  	color: white;
+  	text-align: center;
+  	width: 110px;
+  	float: right;
+  	margin-top: 10px;
   }
 
   
@@ -47,31 +59,33 @@ body {
  	text-align: uppercase;
  	color: black; 
  	background-color: gold;
- 	font-size: 22px;
+ 	font-size: 32px;
  	float: left;
- 	width: 150px;
+ 	width: 200px;
+ 	margin-top: 10px;
  }
  div ul {
  	background-color: black;
  	color: #00FF00; 
  	width: 60px;
+ 	margin-top: 60px;
  }
   .main-menu {
   	padding: 5px 0 5px 0;
   	text-align: center;
-  	line-height: 32px;
+  	line-height: 22px;
   	background-color: #000080;
   	width: 1358px;
  }
 
  ul.main-menu {
- 	margin-top: 15px;
+ 	margin-top: 2px;
  }
 
  .main-menu li {
  	display: inline;
  	padding: 0 10px 0 10px;
- 	font-size: 32px;
+ 	font-size: 22px;
  }
  .main-menu a {
  	text-decoration: none;
@@ -85,6 +99,7 @@ body {
 
  li {
  	background-color: black;
+ 	margin-top: 15px;
  }
 
  footer {
