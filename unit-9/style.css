@@ -3,15 +3,15 @@
 max-width: 1348px;
 font-size: 22px;
 text-align: auto;
-width: all; 
+width: 100%; 
 }
 
 body {
 
 	font-family: 'Arial',sans-serif;
 	background: #480000;
-	width: auto;
-	max-width: 720px;
+	width: 100%;
+	max-width: 700px;
 }
 
 header {
