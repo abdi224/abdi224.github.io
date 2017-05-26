@@ -4,7 +4,6 @@
 max-width: 1348px;
 text-align: left;
 width: auto;
-float: auto; 
 }
 
 body {
@@ -12,8 +11,8 @@ body {
 	font-family: 'Arial',sans-serif;
 	background: #480000;
 	background-size: cover;
-	width: 790px;
-	max-width: auto;
+	width: 760px;
+	max-width: none;
 	margin-top: 5px;
 }
 .clearfix:after {
@@ -54,7 +53,16 @@ h3 {
  	font-size: 32px;
  	float: left;
  	width: 200px;
- 	margin-top: 10px;
+ }
+
+ nav {
+ 	background-color: black;
+ 	color: white;
+ 	text-align: right;
+ 	width: 1290px;
+ 	padding: 0 10px 0;
+ 	float: left;
+ 	font-size: 32px;
  }
  div {
  	background-color: red;
@@ -66,10 +74,10 @@ h3 {
  	margin-top: 15px;
  }
   ul {
- 	background-color: #00BFFF;
- 	color: black; 
+ 	background-color: black;
+ 	color: #00BFFF; 
  	width: 60px;
- 	margin-top: 60px;
+ 	margin-top: 70px;
  }
   .main-menu {
   	padding: 5px 0 5px 0;
@@ -112,16 +120,6 @@ h3 {
  	padding: auto;
  	float: center;
  	height: auto;
- }
- #em-unit {
- 	background-color: #FF6A5E;
- 	width: 1em;
- 	height: 1em;
- }
- #pixel-unit {
- 	background-color: #00FF00;
- 	width: 20em;
- 	height: 20em;
  }
  
  @media only screen and (min-width: 480px) {
