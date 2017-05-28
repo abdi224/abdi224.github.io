@@ -15,6 +15,11 @@ body {
 	max-width: none;
 	margin-top: 5px;
 }
+
+header {
+	width: 1352px;
+	height: 115px;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -59,10 +64,11 @@ h3 {
  	background-color: black;
  	color: white;
  	text-align: right;
- 	width: 1290px;
+ 	width: 1320px;
  	padding: 0 10px 0;
  	float: left;
  	font-size: 32px;
+ 	margin-top: 2px;
  }
  div {
  	background-color: red;
@@ -71,14 +77,13 @@ h3 {
  	font-size: 22px;
  	float: right;
  	width: 100px;
- 	margin-top: 15px;
+ 	margin-top: 2px;
  }
   ul {
  	background-color: black;
  	color: #00BFFF; 
  	width: 60px;
  	margin-top: 70px;
- 	float: center;
  }
   .main-menu {
   	padding: 5px 0 5px 0;
@@ -95,7 +100,7 @@ h3 {
  .main-menu li {
  	display: inline;
  	padding: 0 10px 0 10px;
- 	font-size: 22px;
+ 	font-size: 24px;
  }
  .main-menu a {
  	text-decoration: none;
