@@ -1,11 +1,16 @@
 * {
 	margin: 0;
-	width: auto;
+	max-width: auto;
+	font-size: 100%;
+	text-decoration: none;
 }
 body {
+	font-family:  sans-serif;
 	background: #800000;
-	width: auto;
-	margin-right: 130px;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
 }
 
 header {
@@ -22,14 +27,15 @@ h2 {
 	background: yellow;
 	color: black;
 	width: 150px;
+	border: thin;
 }
 
 h3 {
 	background: red;
 	color: white;
-	float: right;
+	float: left;
+	width: 32px;
 	margin-top: 50px;
-	margin-right: 350px;
 }
 h4 {
 	background: black;
@@ -52,9 +58,8 @@ nav a {
   	background: black;
  	color: red;
  	width: 150px;
- 	font-family: 10px;
  	font-size: 22px;
- 	margin-left: 10px
+ 	margin-right: : 10px
  	padding-left: 20px;
  }
  @media only screen and (max-device-width: 480px) {
