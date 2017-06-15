@@ -1,139 +1,66 @@
-
 * {
 	margin: 0;
-max-width: 1348px;
-text-align: left;
-border-width: 100%;
+	width: auto;
 }
-
 body {
-
-	font-family: 'Arial',sans-serif;
-	background: #480000;
-	background-size: cover;
-	width: 758px;
-	max-width: none;
-	margin-top: 5px;
-	border-width: 100%;
+	background: #800000;
+	width: auto;
+	margin-right: 130px;
 }
 
 header {
-	width: 1352px;
-	height: 115px;
+	background: black;
+	color: gold;
+	font-size: 12px;
+	width: 190px;
 }
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+p {
+	background: blue;
+	color: white;
 }
-
-
- h1 {
-
- 	background-color: #080000;
- 	color: gold;
- 	text-transform: uppercase;
- 	text-align: center;
- 	float: center;
- 	line-height: auto;
- 	font-size: 32px;
- 	width: 1350px; 
- }
-  p {
-  	background-color: #00FF00;
-  	font-variant: small-caps;
-  	color: black;
-  	text-align: center;
-  	float: center;
-  	font-size: 22px;
-  	width: 1350px;
-  }
+h2 {
+	background: yellow;
+	color: black;
+	width: 150px;
+}
 
 h3 {
- 	text-align: uppercase;
- 	color: black; 
- 	background-color: gold;
- 	font-size: 32px;
- 	float: left;
- 	width: 200px;
+	background: red;
+	color: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 350px;
+}
+h4 {
+	background: black;
+	color: blue;
+	float: right;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+nav a {
+	background: black;
+	color:#00ff00;
+	margin-right: 60px;
+	padding-left: 80px;
+	width: 110px;
  }
-
- nav {
- 	background-color: black;
- 	color: white;
- 	text-align: right;
- 	width: 1322px;
- 	padding: 0 10px 0;
- 	float: left;
- 	font-size: 32px;
- 	margin-top: 2px;
- }
- div {
- 	background-color: red;
- 	color: white;
- 	text-align: center;
- 	font-size: 22px;
- 	float: right;
- 	width: 100px;
- 	margin-top: 2px;
- }
-  ul {
- 	background-color: black;
- 	color: #00BFFF; 
- 	width: 60px;
- 	margin-top: 70px;
- }
-  .main-menu {
-  	padding: 5px 0 5px 0;
-  	text-align: center;
-  	line-height: 22px;
-  	background-color: #000080;
-  	width: 1350px;
- }
-
- ul.main-menu {
- 	margin-top: 2px;
- }
-
- .main-menu li {
- 	display: inline;
- 	padding: 0 10px 0 10px;
- 	font-size: 24px;
- }
- .main-menu a {
- 	text-decoration: none;
- 	color: white;
- 	padding: 8px;
- 	font-variant: small-caps;
- }
- .main-menu a:hover {
+ nav a:hover {
  	color: red;
  }
-
- li {
- 	background-color: black;
- 	margin-top: 15px;
+  li {
+  	background: black;
+ 	color: red;
+ 	width: 150px;
+ 	font-family: 10px;
+ 	font-size: 22px;
+ 	margin-left: 10px
+ 	padding-left: 20px;
  }
-
- footer {
- 	background-color: black;
- 	color: white;
- 	width: 1358px;
- 	margin: auto;
- 	text-align: center;
- 	padding: auto;
- 	float: center;
- 	height: auto;
- }
- 
  @media only screen and (max-device-width: 480px) {
  	header {
  		position: absolute;
  	}
  }
-
  
  
