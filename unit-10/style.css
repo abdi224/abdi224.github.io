@@ -6,7 +6,7 @@ body {
 	background: #800000;
 	text-decoration: none;
 	font-size: 16px;
-	text-align: center;
+	text-align: justify-all;
 	position: relative;
 }
 
@@ -24,13 +24,13 @@ h2 {
 	background: yellow;
 	color: black;
 	width: 150px;
-	border: thin;
+	margin-top: 20px;
 }
 
 h3 {
 	background: red;
 	color: white;
-	float: left;
+	float: right; 
 	width: 32px;
 	margin-top: 50px;
 }
@@ -44,16 +44,18 @@ h4 {
 nav a {
 	background: black;
 	color:#00ff00;
+	margin-top: 18px;
 	margin-right: 60px;
 	padding-left: 80px;
 	width: 110px;
  }
- nav a:hover {
+ nav a.hover {
  	color: red;
  }
   li {
   	background: black;
  	color: red;
+ 	margin-top: 20px;
  	width: 150px;
  	font-size: 22px;
  	margin-right: : 10px
