@@ -1,4 +1,7 @@
-
+* {
+	margin: 0px;
+	width: all;
+}
 body {
 	background-color: #800000;
 	margin: 0px;
@@ -6,35 +9,27 @@ body {
 	font-size: 16px;
 }
 
-#header {
+#header h1  {
 	background: black;
 	color: gold;
-	margin: 22px;
-	height: 40px;
-	font-size: 12px;
-	width: 300px;
-}
-h1 {
-	background-color: black;
-	color: gold;
-	text-align: center;
+	margin: 20px;
+	font-size: 32px;
+	width: 220px;
 }
 p {
-	background-color:black;
+	background: black;
 	color: lime;
-	text-align: center;
-	margin: 2px;
-	height: 20px;
-	width: 250px;
+	width: 252px;
+	margin: 20px;
 }
+
 h2 {
 	background: yellow;
 	color: black;
 	text-align: center;
 	font-size: 32px;
-	margin: 22px;
-	margin-top: 20px;
-	width: 220px;
+	margin: 16px;
+	width: 200px;
 }
 h3 {
 	background-color: red;
@@ -49,10 +44,10 @@ h4 {
 	padding: 22px;
 }
  .main_menu {
- 	background-color:  black;
- 	padding: 5px 0 5px 0;
+ 	background-color: navy;
+ 	padding: 5px;
  	text-align: center;
- 	line-height: 32px;
+ 	height: 22px;
 }
 ul.main_menu{
 	margin: 22px;
@@ -61,29 +56,28 @@ ul.main_menu{
 .main_menu li{
 	display: inline;
 	padding: 0 10px 0 10px;
-	font-size: 16px;
+	font-size: 20px;
 }
 .main_menu a {
 	text-decoration: none;
 	color: white;
-	padding: 10px;
+	padding: 80px;
 	font-variant: small-caps; 
 }
 
-.main_menu a :hover {
+.main_menu a:hover {
 	color: red;
 }
 .siderright {
-	background-color: lime;
-	margin: 10px;
+	background-color: black;
+	margin: 16px;
 	font-size: 100%;
 	float: right;
 	width: 250px;
-
 }
 .sidercenter {
 	background-color:black;
-	margin: 300px;
+	margin: 290px;
 	margin-top: 20px;
 	font-size: 100%;
 	float: right;
@@ -92,9 +86,8 @@ ul.main_menu{
 
 }
 .siderleft {
-	background-color: navy;
-	margin: 10px;
-	margin-top: 2px;
+	background-color: black;
+	margin: 16px;
 	font-size: 100%;
 	float: left;
 	width: 250px;
@@ -103,7 +96,7 @@ ul.main_menu{
 div a  {
   	background: black;
  	color: #00ff00;
- 	margin: 22px;
+ 	margin: 20px;
  	margin-top: 20px;
  	width: 50px;
  	font-size: 22px;
