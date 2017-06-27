@@ -14,12 +14,13 @@ body {
 	color: gold;
 	margin: 20px;
 	font-size: 32px;
-	width: 220px;
+	width: 280px;
 }
 p {
 	background: black;
-	color: lime;
-	width: 252px;
+	color: white;
+	font-size: 15px;
+	width: 282px;
 	margin: 20px;
 }
 
@@ -47,10 +48,10 @@ h4 {
  	background-color: navy;
  	padding: 5px;
  	text-align: center;
- 	height: 22px;
+ 	height: 15px;
 }
 ul.main_menu{
-	margin: 22px;
+	margin: 8px;
 	padding: 10px;
 }
 .main_menu li{
@@ -61,7 +62,7 @@ ul.main_menu{
 .main_menu a {
 	text-decoration: none;
 	color: white;
-	padding: 80px;
+	padding: 50px;
 	font-variant: small-caps; 
 }
 
