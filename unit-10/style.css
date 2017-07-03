@@ -1,10 +1,7 @@
-* {
-	margin: 0px;
-	width: all;
-}
+
 body {
 	background-color: #800000;
-	margin: 0px;
+	margin: auto;
 	font-family: 'Arial', sans-serif;
 	font-size: 16px;
 }
@@ -101,10 +98,18 @@ div a  {
  	margin-top: 20px;
  	width: 50px;
  	font-size: 22px;
- 	margin-right: : 10px
+ 	margin-right:  10px
  	padding-left: 20px;
  }
- 
+ footer {
+	color: black;
+	text-align: center;
+	margin: auto;
+	margin-top: 700px;
+	font-size: 22px;
+	width: 250px
+}
+
  @media only screen and (max-device-width: 480px) {
  	header {
  		position: absolute;
